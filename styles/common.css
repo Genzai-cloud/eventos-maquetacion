@@ -1,0 +1,26 @@
+:root {
+    /*Typography  */
+    /*Fonts*/
+    --font-family: "Roboto", sans-serif;
+    --font-weight-roboto-200: 200;
+    --font-weight-roboto-300: 300;
+    --font-weight-roboto-400: 400;
+    --font-weight-roboto-700: 700;
+    /*Colors*/
+    --primary-color: #606060;
+    --secondary-color: #D9D9D9;
+    --card-background: #ECECEC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+}
