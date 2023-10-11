@@ -35,17 +35,19 @@ nav ul {
     justify-content: end;
 }
 .nav--search {
+    display: flex;
     width: 2.5rem;
     height: 2.4rem;
     border-radius: 1.2rem;
-    transition: all ease-in 300ms;
+    transition: all ease-in-out 450ms;
 }
 
 .nav--search:hover {
     flex-grow: 2;
     background-color: white;
     border-radius: 1.2rem;
-    text-align: end;
+    text-align: start;
+    justify-content: start;
 }
 
 .nav--lateral-menu {
