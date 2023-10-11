@@ -15,6 +15,7 @@
 }
 
 .filter-tag {
+    cursor: pointer;
     flex-grow: 1;
     text-align: center;
     color: var(--just-white);

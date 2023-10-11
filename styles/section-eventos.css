@@ -9,7 +9,6 @@
 }
 
 .event-card {
-    cursor: pointer;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -37,6 +36,7 @@
 }
 
 .event-card--profile-foto {
+    cursor: pointer;
     position: relative;
 }
 
@@ -67,6 +67,7 @@
 }
 
 .event-card--main-tag p {
+    cursor: pointer;
     color: var(--just-white);
     text-align: right;
     font-family: var(--font-family);
@@ -109,6 +110,7 @@
     line-height: normal;
 }
 .event-card--info li {
+    cursor: pointer;
     display: flex;
     gap: 0.5rem;
     align-items: center;
