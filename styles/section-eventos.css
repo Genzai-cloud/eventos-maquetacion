@@ -1,0 +1,13 @@
+.main__eventos-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-card {
+    width: 90vw;
+    min-width: 28.6rem;
+    min-height: 31.2rem;
+    border-radius: 1rem solid var(--card-background);
+    background-color: var(--card-background);
+    color: var(--primary-color);
+}
