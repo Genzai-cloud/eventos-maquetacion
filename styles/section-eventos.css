@@ -4,7 +4,6 @@
     grid-template-columns: repeat(1, minmax(28.6rem, 35rem));
     margin-top: 1.5rem;
     gap: 2rem;
-    padding: 0 3.7rem;
 }
 
 .event-card {
