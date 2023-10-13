@@ -1,0 +1,4 @@
+.main__filter-tag-container {
+    grid-template-columns: repeat(4, 90px);
+
+}

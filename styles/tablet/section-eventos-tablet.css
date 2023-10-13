@@ -1,0 +1,3 @@
+.main__eventos-section {
+    grid-template-columns: repeat(2, minmax(28.6rem, 35rem));
+}

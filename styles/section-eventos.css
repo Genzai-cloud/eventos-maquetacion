@@ -1,18 +1,18 @@
 .main__eventos-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 90vw;
-    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, minmax(28.6rem, 35rem));
     margin-top: 1.5rem;
     gap: 2rem;
+    padding: 0 3.7rem;
 }
 
 .event-card {
     position: relative;
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    width: 100%;
+    max-width: 35rem;
     min-width: 28.6rem;
     min-height: 31.2rem;
     border-radius: 1rem;
@@ -68,8 +68,8 @@
 
 .event-card--main-tag p {
     cursor: pointer;
+    text-align: center;
     color: var(--just-white);
-    text-align: right;
     font-family: var(--font-family);
     font-size: 0.8rem;
     font-style: normal;
@@ -109,6 +109,7 @@
     font-weight: 200;
     line-height: normal;
 }
+
 .event-card--info li {
     cursor: pointer;
     display: flex;
@@ -127,6 +128,7 @@
     stroke-width: 0.25px;
     stroke: var(--primary-color);
 }
+
 .event-card--share-button {
     cursor: pointer;
     border: none;
