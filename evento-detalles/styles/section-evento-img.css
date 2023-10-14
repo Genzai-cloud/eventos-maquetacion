@@ -3,7 +3,11 @@
     width: 100vw;
     height: 65vh;
     background-color: var(--card-background);
+    transition: height ease-in 350ms;
 }
+/*.main__section-evento-img:hover {*/
+/*    height: 65vh;*/
+/*}*/
 
 .main__-evento-img {
     /*position: relative;*/
