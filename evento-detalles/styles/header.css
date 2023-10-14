@@ -1,8 +1,10 @@
 header {
+    position: fixed;
     display: flex;
     align-items: center;
     padding: 1rem 2rem;
     width: 100vw;
     min-height: 48px;
     background-color: var(--secondary-color);
+    z-index: 3;
 }
