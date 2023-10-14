@@ -31,6 +31,7 @@
 }
 
 .event-card--header-info {
+    z-index: 1;
     display: flex;
     gap: 6.4rem;
     justify-content: space-between;
@@ -82,11 +83,14 @@
 }
 
 .event-card--footer-info {
+    /*background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 1%, #2e5f78);*/
+    z-index: 1;
     margin-top: auto;
     display: flex;
     gap: 1rem;
     flex-direction: column;
     padding: 0.8rem 1rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 .event-card--title {
@@ -125,6 +129,27 @@
     line-height: normal;
 }
 
+.event-card--event-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 35rem;
+    min-height: 100%;
+}
+
+.event-card--event-img img {
+    width: 100%;
+    height: 99%;
+    border-radius: 1rem;
+    object-fit: cover;
+    z-index: 0;
+}
+.gradient {
+    /*background: linear-gradient(180deg, transparent , #2e5f78 75%);*/
+    background: linear-gradient(180deg, transparent , var(--card-background) 75%);
+    border-radius: 0 0 1rem 1rem;
+}
 .event-card--footer-info hr {
     stroke-width: 0.25px;
     stroke: var(--primary-color);

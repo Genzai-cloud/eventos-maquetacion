@@ -11,6 +11,7 @@
     --primary-color: #606060;
     --secondary-color: #D9D9D9;
     --card-background: #ECECEC;
+    color: rgba(0, 0, 0, 0.33);
     --just-white: white;
 }
 
@@ -25,4 +26,5 @@ html {
 }
 body {
     font-size: 1.6rem;
+    position: relative;
 }
