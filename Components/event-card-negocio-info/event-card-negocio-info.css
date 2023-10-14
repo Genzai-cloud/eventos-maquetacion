@@ -1,0 +1,20 @@
+.event-card--negocio-info {
+    width: 90%;
+    min-height: 3.2rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 1.8rem 1rem;
+}
+.event-card--profile-foto {
+    cursor: pointer;
+    position: relative;
+}
+.event-card--profile-info {
+    color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
