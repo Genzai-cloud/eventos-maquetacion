@@ -1,6 +1,20 @@
 .main__section-evento-img {
-    width: 100%;
-    min-width: 36rem;
-    min-height: 36rem;
+    position: relative;
+    width: 100vw;
+    height: auto;
     background-color: var(--card-background);
+}
+.main__-evento-img {
+    /*position: relative;*/
+}
+.main__evento-img img {
+    width: 100%;
+    object-fit: cover;
+}
+.evento-img--gradient-screen {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, transparent 60%, #2e5f78);
 }
