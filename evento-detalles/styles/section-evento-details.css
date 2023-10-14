@@ -10,6 +10,10 @@
 .event-card--negocio-info {
     margin: 0;
 }
+/*.event-card--profile-foto .event-card--user-type-icon {*/
+/*    width: 1.2rem;*/
+/*    height: 1.2rem;*/
+/*}*/
 
 .profile-info--subtitle {
     color: var(--secondary-color);
