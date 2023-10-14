@@ -1,7 +1,7 @@
 .main__section-evento-img {
     position: relative;
     width: 100vw;
-    height: auto;
+    height: 65vh;
     background-color: var(--card-background);
 }
 
