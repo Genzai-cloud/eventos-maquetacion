@@ -1,0 +1,16 @@
+.float-crear-editar-button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    position: fixed;
+    width: 4.8rem;
+    height: 4.8rem;
+    bottom: 4.5rem;
+    right: 2rem;
+    transform: scale(1);
+    transition: transform ease-in-out 300ms;
+}
+
+.float-crear-editar-button:hover {
+    transform: scale(1.08);
+}
