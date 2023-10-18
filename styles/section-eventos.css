@@ -22,9 +22,11 @@
     transform: scale(1);
     transition: transform ease-in-out 200ms;
 }
+
 .event-card:hover {
     transform: scale(1.08);
 }
+
 .event-card--negocio-info {
     width: 90%;
     min-height: 3.2rem;
