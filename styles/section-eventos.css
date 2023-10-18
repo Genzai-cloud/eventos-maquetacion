@@ -26,8 +26,15 @@
 .event-card:hover {
     transform: scale(1.08);
 }
+.event-card:hover .event-card--negocio-info{
+/*arreglando el hover del negocio info falta tambien la main tag*/
+}
 
 .event-card--negocio-info {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    text-decoration: none;
     width: 90%;
     min-height: 3.2rem;
     display: flex;
@@ -35,7 +42,11 @@
     align-items: center;
     margin: 1.8rem 1rem;
 }
-
+.event-card--main-tag {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+}
 .event-card--header-info {
     z-index: 1;
     display: flex;
