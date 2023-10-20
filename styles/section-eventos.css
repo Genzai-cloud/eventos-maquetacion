@@ -172,6 +172,15 @@
     border-radius: 0 0 1rem 1rem;
 }
 
+.event-card--footer-info a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.event-card--footer-info a:hover {
+    text-decoration: underline;
+}
+
 .event-card--footer-info hr {
     stroke-width: 0.25px;
     stroke: var(--primary-color);
