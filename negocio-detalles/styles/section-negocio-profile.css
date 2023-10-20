@@ -1,0 +1,76 @@
+.main__negocio-profile {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 4.8rem;
+    width: 100%;
+    min-width: 320px;
+    max-width: 100vw;
+    min-height: 160px;
+    background: var(--card-background);
+}
+
+.negocio-profile--background {
+    object-fit: cover;
+    object-position: center;
+    width: 100vw;
+    max-height: 40vh;
+}
+
+.negocio-profile--background-gradient-screen {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /*background: linear-gradient(180deg, transparent 60%, #2e5f78);*/
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 1));
+}
+
+.negocio-profile--profile-info {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: calc(100% - 52px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: ;*/
+}
+
+.negocio-profile--perfil-img-container {
+    position: relative;
+}
+.negocio-profile--user-type-icon {
+    position: absolute;
+    padding: 0.4rem;
+    width: 4rem;
+    height: 4rem;
+    bottom: 0.5rem;
+    right: 0;
+    background: var(--card-background);
+    border-radius: 4rem;
+}
+.negocio-profile--profile-info .negocio-profile--foto {
+    width: 10.4rem;
+    height: 10.4rem;
+}
+
+.text {
+    color: var(--primary-color);
+    text-align: center;
+    font-family: var(--font-family);
+    font-style: normal;
+    line-height: normal;
+}
+
+.negocio-profile--profile-info h2 {
+
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.negocio-profile--profile-info p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
