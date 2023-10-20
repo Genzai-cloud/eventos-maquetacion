@@ -9,6 +9,7 @@
 
 .event-card--negocio-info {
     margin: 0;
+    text-decoration: none;
 }
 /*.event-card--profile-foto .event-card--user-type-icon {*/
 /*    width: 1.2rem;*/
