@@ -45,6 +45,9 @@
     position: absolute;
     right: 0;
 }
+.event-card--main-tag a {
+    text-decoration: none;
+}
 
 .event-card--header-info {
     z-index: 1;
