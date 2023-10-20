@@ -55,7 +55,7 @@ nav ul {
 }
 
 .nav--lateral-menu {
-    background-image: url("../assets/icons/Menu_Icon.svg");
+    /*background-image: url("../assets/icons/Menu_Icon.svg");*/
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 1.2rem;
