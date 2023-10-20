@@ -26,9 +26,6 @@
 .event-card:hover {
     transform: scale(1.08);
 }
-.event-card:hover .event-card--negocio-info{
-/*arreglando el hover del negocio info falta tambien la main tag*/
-}
 
 .event-card--negocio-info {
     position: absolute;
@@ -42,16 +39,23 @@
     align-items: center;
     margin: 1.8rem 1rem;
 }
+
 .event-card--main-tag {
     z-index: 1;
     position: absolute;
     right: 0;
 }
+
 .event-card--header-info {
     z-index: 1;
     display: flex;
     gap: 6.4rem;
     justify-content: space-between;
+}
+
+.event-card--content {
+    text-decoration: none;
+    margin-top: auto;
 }
 
 .event-card--profile-foto {
@@ -99,6 +103,7 @@
 
 .event-card--footer-info {
     /*background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 1%, #2e5f78);*/
+    position: relative;
     z-index: 1;
     margin-top: auto;
     display: flex;
