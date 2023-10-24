@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/section-negocio-profile.css">
     <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/section-info.css">
     <!--    Components-->
     <link rel="stylesheet" href="../Components/header/header-component.css">
     <link rel="stylesheet" href="../Components/float-button/float-button.css">
-<!--    Specifics styles-->
+    <!--    Specifics styles-->
     <link rel="stylesheet" href="./styles/header.css">
 
 </head>
@@ -40,12 +41,14 @@
 <main>
     <section class="main__negocio-profile">
         <picture>
-            <img class="negocio-profile--background" src="../assets/images/evento-example-2.jpeg" alt="imagen backgroud del negocio">
+            <img class="negocio-profile--background" src="../assets/images/evento-example-2.jpeg"
+                 alt="imagen backgroud del negocio">
         </picture>
         <div class="negocio-profile--background-gradient-screen"></div>
         <div class="negocio-profile--profile-info">
             <picture class="negocio-profile--perfil-img-container">
-                <img class="negocio-profile--foto" src="../assets/icons/company-icon.svg" alt="imagen de perfil del negocio">
+                <img class="negocio-profile--foto" src="../assets/icons/company-icon.svg"
+                     alt="imagen de perfil del negocio">
                 <img class="negocio-profile--user-type-icon" src="../assets/icons/type-user-icon.svg" alt="">
             </picture>
             <h2 class="text">Nombre del negocio</h2>
@@ -53,12 +56,51 @@
         </div>
     </section>
     <div class="main__navigation">
-        <button class="navigation--informacion"><img src="../assets/icons/negocio-informacion-icon.svg" alt="info icon">Información</button>
+        <button class="navigation--informacion"><img src="../assets/icons/negocio-informacion-icon.svg" alt="info icon">Información
+        </button>
         <div class="navigation--separador"></div>
-        <button class="navigation--eventos"><img src="../assets/icons/negocio-eventos.svg" alt="info icon">Eventos</button>
+        <button class="navigation--eventos"><img src="../assets/icons/negocio-eventos.svg" alt="info icon">Eventos
+        </button>
     </div>
+    <section class="main__section-info">
+        <div class="section-info--description flex-container">
+            <h2>Descripción</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, aut consequuntur cum cupiditate
+                deserunt eius excepturi exercitationem illo iure iusto molestiae obcaecati optio quis, sapiente sunt
+                suscipit temporibus. Facilis, recusandae!</p>
+        </div>
+        <div class="section-info--tipo-negocio flex-container">
+            <h2>Tipo de negocio</h2>
+            <p>Tipo de negocio</p>
+        </div>
+        <div class="section-info--ubicacion flex-container">
+            <h2>Ubicación</h2>
+            <div class="section-info--ubicacion-grid">
+                <h3>Dirección</h3>
+                <h3>Municipio</h3>
+                <h3>Provincia</h3>
+                <p>Dirección a detalle</p>
+                <p>Municipio</p>
+                <p>Provincia</p>
+            </div>
+        </div>
+        <div class="section-info--contacto flex-container">
+            <h2>Contactos</h2>
+            <h3>Teléfono</h3>
+            <p>+53 000 00 00</p>
+            <h3>Sitio web</h3>
+            <a href="">www.url.dominio.?</a>
+            <h3>Redes sociales</h3>
+            <div class="section-info--social-media-container">
+                <img src="../assets/icons/contacto-whatsapp-icon.svg" alt="Whatsapp icon">
+                <img src="../assets/icons/contacto-facebook-icon.svg" alt="Facebook icon">
+                <img src="../assets/icons/contacto-instagram-icon.svg" alt="Instagram icon">
+            </div>
+        </div>
+    </section>
 </main>
-<button class="float-crear-editar-button"><img src="../assets/icons/negocio-editar-perfil-icon.svg" alt="crear editar button"></button>
+<button class="float-crear-editar-button"><img src="../assets/icons/negocio-editar-perfil-icon.svg"
+                                               alt="crear editar button"></button>
 
 </body>
 </html>

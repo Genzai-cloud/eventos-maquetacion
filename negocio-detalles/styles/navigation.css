@@ -10,6 +10,7 @@
     background: var(--secondary-color);
 }
 .main__navigation button {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
