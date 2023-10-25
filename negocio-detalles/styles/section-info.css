@@ -29,7 +29,7 @@
 .main__section-info p {
     font-size: 1.2rem;
     font-weight: 200;
-    text-align: justify;
+    text-align: start;
 }
 .main__section-info a {
     text-decoration: underline;
@@ -43,8 +43,8 @@
 }
 .section-info--ubicacion-grid {
     display: grid;
-    column-gap: 2.5rem;
-    grid-template-columns: repeat(3, 9.5rem);
+    column-gap: 0.5rem;
+    grid-template-columns: repeat(3, 8.5rem);
     grid-auto-rows: auto;
 }
 .section-info--social-media-container {
