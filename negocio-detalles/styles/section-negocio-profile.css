@@ -9,12 +9,14 @@
     min-height: 160px;
     background: var(--card-background);
 }
-
+.main__negocio-profile .negocio-profile--background-container {
+    width: 100%;
+}
 .negocio-profile--background {
     object-fit: cover;
     object-position: center;
-    width: 100vw;
     max-height: 40vh;
+    width: 100%;
 }
 
 .negocio-profile--background-gradient-screen {
