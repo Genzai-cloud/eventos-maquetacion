@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--    Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!--    Styles-->
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/form-crear-evento.css">
+    <!--        Components-->
+    <!--    Start-->
+    <link rel="stylesheet" href="../Components/header/header-component.css">
+    <!--    End-->
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <a href="/eventos-maquetacion">
+                <img class="nav--return-button" src="../assets/icons/Volver_Icon.svg">
+            </a>
+            <li class="nav--actions-container">
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2 class="main__title">Crear evento</h2>
+
+    <form action="" class="main__form-crear-evento">
+
+        <div class="form--img-input-container">
+            <h3>Seleccione una imagen para su evento</h3>
+            <label for="image">
+                <div>
+                    <img src="../assets/icons/evento-upload-icon.svg" alt="upload image">Subir imagen
+                </div>
+            </label>
+            <input required type="file" name="image" id="image" accept="image/png, image/jpeg">
+        </div>
+        <div class="form--name-container flex-column">
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Inserte nombre de su evento">
+        </div>
+        <div class="form--tags-container flex-column">
+            <label for="browser">Etiquetas</label>
+            <div class="tags-container--input-tag">
+                <a href=""><img src="../assets/icons/evento-add-tag-icon.svg" alt="logo"></a>
+                <input list="tags" name="tags" id="browser" placeholder="Seleccione las etiquetas de su evento">
+                <datalist id="tags">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist>
+            </div>
+        </div>
+        <div class="form--descripcion flex-column">
+            <label for="description">Descripción</label>
+            <input type="text" name="desription" id="description" placeholder="Describa brevemente su evento">
+        </div>
+    </form>
+</main>
+</body>
+</html>
