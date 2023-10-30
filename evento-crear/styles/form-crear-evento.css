@@ -12,7 +12,7 @@
     align-items: center;
     gap: 1.6rem;
 
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-style: normal;
     line-height: normal;
@@ -29,7 +29,7 @@
 }
 
 .main__form-crear-evento input::placeholder {
-    color: var(--card-background);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 1rem;
     font-style: normal;
@@ -50,7 +50,7 @@
     border: 0.1rem dashed var(--card-background);
     padding: 0.5rem;
     font-size: 1.2rem;
-    color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .form--img-input-container label div {

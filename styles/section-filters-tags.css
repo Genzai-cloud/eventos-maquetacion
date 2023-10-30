@@ -18,14 +18,14 @@
     cursor: pointer;
     flex-grow: 1;
     text-align: center;
-    color: var(--just-white);
+    color: var(--neutral-100);
     font-family: var(--font-family);
     font-size: var(--tag-font-size);
     font-style: normal;
     font-weight: 200;
     line-height: normal;
 
-    background-color: var(--primary-color);
+    background-color: var(--primary-500);
 
     min-height: 1.6rem;
     padding: 0.5rem 1rem;

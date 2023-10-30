@@ -17,7 +17,7 @@
 /*}*/
 
 .profile-info--subtitle {
-    color: var(--secondary-color);
+    color: var(--text-color);
     font-size: 0.8rem;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .main__section-evento-details h2 {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 1.6rem;
     font-style: normal;
@@ -50,9 +50,9 @@
     height: auto;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
-    background-color: var(--primary-color);
+    background-color: var(--primary-500);
 
-    color: var(--just-white);
+    color: var(--neutral-100);
     text-align: center;
     font-family: var(--font-family);
     font-size: 0.8rem;
@@ -62,7 +62,7 @@
 }
 
 .evento-details--description-container {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 200;

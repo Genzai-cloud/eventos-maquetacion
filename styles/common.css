@@ -8,9 +8,79 @@
     --font-weight-roboto-700: 700;
     --tag-font-size: 1.4rem;
     /*Colors*/
-    --primary-color: #606060;
-    --secondary-color: #D9D9D9;
-    --card-background: #ECECEC;
+    /*Primary*/
+    --primary-100: #D4ECFA;
+    --primary-200: #AAD6F6;
+    --primary-300: #7CB4E6;
+    --primary-400: #5791CD;
+    --primary-500: #2863AD;
+    --primary-600: #1D4C94;
+    --primary-700: #14397C;
+    --primary-800: #0C2764;
+    --primary-900: #0C2764;
+    /*Secondary*/
+    --secondary-100: #D4FAF8;
+    --secondary-200: #AAF6F6;
+    --secondary-300: #7CDEE6;
+    --secondary-400: #57BCCD;
+    --secondary-500: #2890AD;
+    --secondary-600: #1D7194;
+    --secondary-700: #14567C;
+    --secondary-800: #0C3E64;
+    --secondary-900: #072C53;
+    /*Right*/
+    --right-100: #DEFAD3;
+    --right-200: #B7F5A9;
+    --right-300: #83E179;
+    --right-400: #53C452;
+    --right-500: #249E2E;
+    --right-600: #1A872D;
+    --right-700: #12712B;
+    --right-800: #0B5B27;
+    --right-900: #064B25;
+    /*Info*/
+    --info-100: #CAEEFD;
+    --info-200: #97D8FC;
+    --info-300: #62BBF7;
+    --info-400: #3B9EEF;
+    --info-500: #0072E5;
+    --info-600: #0058C4;
+    --info-700: #0041A4;
+    --info-800: #002E84;
+    --info-900: #00206D;
+    /*Warning*/
+    --warning-100: #FEF4CB;
+    --warning-200: #FEE698;
+    --warning-300: #FED365;
+    --warning-400: #FDC13F;
+    --warning-500: #FCA400;
+    --warning-600: #D88500;
+    --warning-700: #B56900;
+    --warning-800: #924F00;
+    --warning-900: #783D00;
+    /*Error*/
+    --error-100: #FDE1D1;
+    --error-200: #FBBCA4;
+    --error-300: #F38D75;
+    --error-400: #E76152;
+    --error-500: #D8211E;
+    --error-600: #B91521;
+    --error-700: #9B0F24;
+    --error-800: #7D0925;
+    --error-900: #670525;
+    /*Neutral*/
+    --neutral-100: #F5F5FA;
+    --neutral-200: #E4E4F2;
+    --neutral-300: #B9B9C9;
+    --neutral-400: #9393A3;
+    --neutral-500: #70707F;
+    --neutral-600: #51515E;
+    --neutral-700: #363640;
+    --neutral-800: #1D1D24;
+    --neutral-900: #08080A;
+    /*Otros*/
+    --card-background: var(--primary-500);
+    --text-color: var(--neutral-500);
     color: rgba(0, 0, 0, 0.33);
     --just-white: white;
 }
@@ -24,6 +94,7 @@
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 1.6rem;
     position: relative;
