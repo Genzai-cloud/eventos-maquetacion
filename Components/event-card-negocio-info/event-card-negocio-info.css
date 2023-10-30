@@ -28,7 +28,7 @@
 }
 
 .event-card--profile-info {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 1rem;
     font-style: normal;

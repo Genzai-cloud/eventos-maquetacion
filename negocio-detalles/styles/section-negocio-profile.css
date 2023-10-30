@@ -59,7 +59,7 @@
 }
 
 .text {
-    color: var(--primary-color);
+    color: var(--text-color);
     text-align: center;
     font-family: var(--font-family);
     font-style: normal;

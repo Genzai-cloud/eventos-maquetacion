@@ -18,7 +18,7 @@
     min-height: 31.2rem;
     border-radius: 1rem;
     background-color: var(--card-background);
-    color: var(--primary-color);
+    color: var(--text-color);
     transform: scale(1);
     transition: transform ease-in-out 200ms;
 }
@@ -31,13 +31,15 @@
     position: absolute;
     z-index: 1;
     left: 0;
+    top: 58%;
     text-decoration: none;
     width: 90%;
     min-height: 3.2rem;
     display: flex;
-    gap: 0.5rem;
+    gap: 0.4rem;
     align-items: center;
-    margin: 1.8rem 1rem;
+    margin-bottom: 1.4rem;
+    margin-left: 1rem;
 }
 
 .event-card--main-tag {
@@ -65,6 +67,7 @@
 .event-card--profile-foto {
     cursor: pointer;
     position: relative;
+    display: flex;
 }
 
 .event-card--profile-foto img {
@@ -74,16 +77,16 @@
 
 .event-card--profile-foto .event-card--user-type-icon {
     position: absolute;
-    width: 1rem;
-    height: 1rem;
-    bottom: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    bottom: 0;
     right: 0;
     background: var(--card-background);
     border-radius: 0.4rem;
 }
 
 .event-card--profile-info {
-    color: var(--primary-color);
+    color: var(--neutral-100);
     font-family: var(--font-family);
     font-size: 1rem;
     font-style: normal;
@@ -94,14 +97,14 @@
 .event-card--main-tag p {
     cursor: pointer;
     text-align: center;
-    color: var(--just-white);
+    color: var(--neutral-100);
     font-family: var(--font-family);
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
     padding: 0.6rem 1.2rem;
-    background: var(--primary-color);
+    background: var(--primary-500);
     border-radius: 0 1rem;
 }
 
@@ -118,7 +121,7 @@
 }
 
 .event-card--title {
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 1.4rem;
     font-style: normal;
@@ -131,7 +134,7 @@
     display: flex;
     gap: 1.5rem;
 
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 0.8rem;
     font-style: normal;
@@ -145,7 +148,7 @@
     gap: 0.5rem;
     align-items: center;
 
-    color: var(--primary-color);
+    color: var(--text-color);
     font-family: var(--font-family);
     font-size: 0.8rem;
     font-style: normal;
@@ -178,7 +181,7 @@
 
 .event-card--footer-info a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--neutral-100);
 }
 
 .event-card--footer-info a:hover {
@@ -187,7 +190,7 @@
 
 .event-card--footer-info hr {
     stroke-width: 0.25px;
-    stroke: var(--primary-color);
+    stroke: var(--primary-500);
 }
 
 .event-card--share-button {
@@ -198,7 +201,7 @@
     justify-content: center;
     gap: 0.5rem;
 
-    color: var(--primary-color);
+    color: var(--neutral-100);
     font-family: var(--font-family);
     font-size: 1rem;
     font-style: normal;
@@ -206,6 +209,7 @@
     line-height: normal;
 
     background: transparent;
+
 }
 
 .event-card--share-button img {
